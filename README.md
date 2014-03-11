@@ -8,4 +8,4 @@ Just use $("#yourTableID").paginate({
 rowsPage means that how many record in a page.
 
 Notice that I count the table length to determine how many record to hide, so you need to
-set your table <th></th> first , and <th></th> never hide.
+set your table tag th first , and tag th never hide.
