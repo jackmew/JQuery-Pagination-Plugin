@@ -1,0 +1,148 @@
+
+
+/*textbox input position*/
+.container {
+    width: 100%;
+    height: 150px;
+
+}
+.inputContent ,.inputContent2 ,.inputContent3{
+    float: right;
+
+
+}
+.inputUid {
+    float: left;
+    width: 60%;
+}
+/*/textbox input position*/
+
+
+
+/* body */
+#contentWidth {
+    width:900px;margin-left:auto;margin-right:auto;
+}
+
+
+/*middle line*/
+.border_right{
+    border-right: 2px inset #e4e4e3;
+
+}
+/*table column size*/
+#col1{
+    width:400px;
+
+}
+#col2{
+    width:65px;
+
+}
+#col3{
+    width:400px;
+}
+#col4{
+    width:65px;
+}
+#col5{
+    width:65px;
+}
+#row1{
+    background-color: black;
+    color: white;   
+    font-family:"Times New Roman";
+}
+/*table first black row , color=>font color*/
+#UIDtable th { background-color : rgb(0,0,0); color: white;  font-family:"Times New Roman";}
+#UIDtable th:first-child { border-top-left-radius: 30px; }
+#UIDtable th:last-child { border-top-right-radius: 30px; }
+          /*record color with radius border*/
+#UIDtable td {background:rgb(218,218,218);}
+#UIDtable tr:nth-child(10n+0) td:first-child{ border-bottom-left-radius: 30px; background:rgb(218,218,218)}
+#UIDtable tr:nth-child(10n+0) td:last-child{ border-bottom-right-radius: 30px; background:rgb(218,218,218)}
+#UIDtable tr:last-child td:first-child{ border-bottom-left-radius: 30px; background:rgb(218,218,218)}
+#UIDtable tr:last-child td:last-child{ border-bottom-right-radius: 30px; background:rgb(218,218,218)}
+
+#UIDtable th:first-child  {  width:400px;}
+#UIDtable th:nth-child(2) {  width:65px;}
+#UIDtable th:nth-child(3) {  width:400px;}
+#UIDtable th:nth-child(4) {  width:65px;}
+#UIDtable th:nth-child(5) {  width:65px;}
+
+#UIDtable {
+    /*the color to invisible*/
+    background-color:rgb(188,188,188);
+    border: 1px solid #000;
+}
+
+
+/**************popup 新增UID dialog************/
+/*調整整個跳出視窗大小*/
+#newUIDForm{
+    width: 350px; 
+    height: 250px;
+}
+/*調整細部layout大小*/
+#newUIDTable td:first-child  {  width:10%;}
+#newUIDTable td:nth-child(2) {  width:50%; }
+#newUIDTable tr:nth-child(2) {  height: 100px; }/*height 不能用%???*/
+
+/*調整'描述'的位置*/
+label[for='UIDDescription']{
+    position: absolute ;
+    top:35%;
+    left:0;
+}
+
+#newUIDTable textarea {
+width:100%;
+height: 110% !important;
+}
+
+#UIDDescription {
+    resize:none;
+}
+
+/*********End  popup 新增UID dialog************/
+/**************popup 修改UID dialog************/
+/*調整整個跳出視窗大小*/
+#modifyUIDForm{
+    width: 350px; 
+    height: 250px;
+}
+/*調整細部layout大小*/
+#modifyUIDForm td:first-child  {  width:10%;}
+#modifyUIDForm td:nth-child(2) {  width:50%; }
+#modifyUIDForm tr:nth-child(1) {  height: 60px; }/*height 不能用%???*/
+#modifyUIDForm tr:nth-child(2) {  height: 100px; }/*height 不能用%???*/
+
+/*調整'UID'的位置*/
+label[for='modifyUID']{
+    position: absolute ;
+    top:20%;
+    left:3%;
+}
+/*調整'抓出來的UID'的位置*/
+span[name='modifyUID']{
+    position: absolute ;
+    top:20%;
+    left:18%;
+}
+/*調整'描述'的位置*/
+label[for='modifyDescription']{
+    position: absolute ;
+    top:37%;
+    left:3%;
+}
+
+#modifyUIDForm textarea {
+width:100%;
+height: 110% !important;
+}
+
+#modifyDescription {
+    resize:none;
+}
+/*********End  popup 修改UID dialog************/
+

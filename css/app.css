@@ -1,0 +1,74 @@
+.ui-icon-pen:after {
+    background-image: url("../icon/pen2.png");
+    /* Make your icon fit */
+    background-size: 30px 30px;
+}
+.ui-icon-dotted:after {
+    background-image: url("../icon/dotted.png");
+    /* Make your icon fit */
+    background-size: 30px 30px;
+}
+.ui-icon-dotted:after {
+    background-image: url("../icon/dotted.png");
+    /* Make your icon fit */
+    background-size: 30px 30px;
+}
+.ui-icon-garbage:after {
+    background-image: url("../icon/garbage2.png");
+    /* Make your icon fit */
+    background-size: 40px 30px;
+}
+.ui-icon-men:after {
+    background-image: url("../icon/men.png");
+    /* Make your icon fit */
+    background-size: 30px 30px;
+}
+.ui-icon-no:after {
+    background-image: url("../icon/no.png");
+    /* Make your icon fit */
+    background-size: 50px 30px;
+}
+.ui-icon-ok:after {
+    background-image: url("../icon/ok.png");
+    /* Make your icon fit */
+    background-size: 50px 30px;
+}
+.ui-icon-panel:after {
+    background-image: url("../icon/panel.png");
+    /* Make your icon fit */
+    background-size: 40px 25px;
+}
+.ui-icon-add:after {
+    background-image: url("../icon/plus.png");
+    /* Make your icon fit */
+    background-size: 30px 30px;
+}
+.ui-icon-tool:after {
+    background-image: url("../icon/tool.png");
+    /* Make your icon fit */
+    background-size: 50px 30px;
+}
+.ui-icon-triangle:after {
+    background-image: url("../icon/triangle.png");
+    /* Make your icon fit */
+    background-size: 30px 30px;
+}
+
+/* header */
+#wbase {
+    text-align:left;
+    margin-left:10px;
+    text-shadow: 0 0 10px #fdfffe;
+    color:#fdfffe;
+    font-size:20px;
+}
+.ui-page {
+    background: rgb(188,188,188) !important;
+}
+.ui-btn {
+    width: 50px !important;
+}
+
+
+
+

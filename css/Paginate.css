@@ -1,0 +1,30 @@
+/**
+ * table paginating css
+ * Created by jackho on 2/27/14.
+ * 
+ * how to use :
+ * $(selected table).paginate();
+ * with paginate.css
+ */
+#nav {
+    height: 14px;
+    margin : 10px 30%;
+    width:500px;
+}
+#nav a {
+	text-decoration: none;
+    color:#97979d;
+    background: rgb(188,188,188);
+
+}
+#nav a[name=firstPage],#nav a[name=lastPage]{
+    color:#dde2e9;
+}
+#nav a[name=prevPage],#nav a[name=nextPage]{
+    color:#717676;
+}
+#nav a.activeSlide {
+	font-weight: bold;
+    color:black;
+}
+/*/page indicator*/

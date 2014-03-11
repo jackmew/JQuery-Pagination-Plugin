@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Jackmew paginate</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.0.css">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.mobile-1.4.0.js"></script>
+
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/UIDWidget.css" />
+    <link rel="stylesheet" href="css/Paginate.css" />
+    <script src="js/PaginateUtil.js"></script>
+    <script src="js/UIDWidget.js"></script>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+</head>
+<body>
+<!--page one -->
+<div data-role="page"  >
+    <!--header-->
+    <div data-role="header" data-theme="b" data-position="fixed"> 
+        <h1 id="wbase" >Jackmew paginate</h1> 
+    </div>
+    <!-- /header  style="text-align:left; margin-left:10px;"-->
+    <!--content-->
+    <div data-role="content" id="contentWidth">
+
+           
+                    <table data-role="table"  id="UIDtable"  class="ui-responsive  table-stroke">
+                         <thead> 
+                           <tr id="row1">
+                             <th id="col1" >column1</th>
+                             <th class="border_right" id="col2" >column2</th>
+                             <th id="col3" >column3</th>
+                             <th id="col4" >column4</th>
+                             <th id="col5" >column5</th>
+                           </tr>
+                         </thead>
+                         <tbody id="UIDtbody">
+                            <tr>
+                            <td id="uid1">"name1"</td>
+                            <td class='border_right'><a href='#modifyDialog' id='btnModify1' data-rel='popup' data-position-to='window' class='ui-btn ui-icon-pen ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            <td id="description1">"description1"</td>
+                            <td><a id='btnTool1' href='#' class='ui-btn ui-icon-tool ui-btn-icon-notext ui-corner-all'>No text</a></td>
+
+                            <td><a id='btnGarbage1' href='#deleteDialog' data-rel='popup' class='ui-btn ui-icon-garbage ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            </tr>
+
+                            <tr>
+                            <td id="uid2">"uid2"</td>
+                            <td class='border_right'><a href='#modifyDialog' id='btnModify2' data-rel='popup' data-position-to='window' class='ui-btn ui-icon-pen ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            <td id="description2">"description2"</td>
+                            <td><a id='btnTool2' href='#' class='ui-btn ui-icon-tool ui-btn-icon-notext ui-corner-all'>No text</a></td>
+
+                            <td><a id='btnGarbage2' href='#deleteDialog' data-rel='popup' class='ui-btn ui-icon-garbage ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            </tr>
+
+                            <tr>
+                            <td id="uid3">"uid3"</td>
+                            <td class='border_right'><a href='#modifyDialog' id='btnModify3' data-rel='popup' data-position-to='window' class='ui-btn ui-icon-pen ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            <td id="description3">"description3"</td>
+                            <td><a id='btnTool3' href='#' class='ui-btn ui-icon-tool ui-btn-icon-notext ui-corner-all'>No text</a></td>
+
+                            <td><a id='btnGarbage3' href='#deleteDialog' data-rel='popup' class='ui-btn ui-icon-garbage ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            </tr>
+
+                            <tr>
+                            <td id="uid4">"uid4"</td>
+                            <td class='border_right'><a href='#modifyDialog' id='btnModify4' data-rel='popup' data-position-to='window' class='ui-btn ui-icon-pen ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            <td id="description4">"description4"</td>
+                            <td><a id='btnTool4' href='#' class='ui-btn ui-icon-tool ui-btn-icon-notext ui-corner-all'>No text</a></td>
+
+                            <td><a id='btnGarbage4' href='#deleteDialog' data-rel='popup' class='ui-btn ui-icon-garbage ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            </tr>
+
+                            <tr>
+                            <td id="uid5">"uid5"</td>
+                            <td class='border_right'><a href='#modifyDialog' id='btnModify5' data-rel='popup' data-position-to='window' class='ui-btn ui-icon-pen ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            <td id="description5">"description5"</td>
+                            <td><a id='btnTool5' href='#' class='ui-btn ui-icon-tool ui-btn-icon-notext ui-corner-all'>No text</a></td>
+
+                            <td><a id='btnGarbage5' href='#deleteDialog' data-rel='popup' class='ui-btn ui-icon-garbage ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            </tr>
+
+                            <tr>
+                            <td id="uid6">"uid6"</td>
+                            <td class='border_right'><a href='#modifyDialog' id='btnModify6' data-rel='popup' data-position-to='window' class='ui-btn ui-icon-pen ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            <td id="description6">"description6"</td>
+                            <td><a id='btnTool6' href='#' class='ui-btn ui-icon-tool ui-btn-icon-notext ui-corner-all'>No text</a></td>
+
+                            <td><a id='btnGarbage6' href='#deleteDialog' data-rel='popup' class='ui-btn ui-icon-garbage ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            </tr>
+
+                            <tr>
+                            <td id="uid7">"uid7"</td>
+                            <td class='border_right'><a href='#modifyDialog' id='btnModify7' data-rel='popup' data-position-to='window' class='ui-btn ui-icon-pen ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            <td id="description7">"description7"</td>
+                            <td><a id='btnTool7' href='#' class='ui-btn ui-icon-tool ui-btn-icon-notext ui-corner-all'>No text</a></td>
+
+                            <td><a id='btnGarbage7' href='#deleteDialog' data-rel='popup' class='ui-btn ui-icon-garbage ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            </tr>
+
+                            <tr>
+                            <td id="uid8">"uid8"</td>
+                            <td class='border_right'><a href='#modifyDialog' id='btnModify8' data-rel='popup' data-position-to='window' class='ui-btn ui-icon-pen ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            <td id="description8">"description8"</td>
+                            <td><a id='btnTool8' href='#' class='ui-btn ui-icon-tool ui-btn-icon-notext ui-corner-all'>No text</a></td>
+
+                            <td><a id='btnGarbage8' href='#deleteDialog' data-rel='popup' class='ui-btn ui-icon-garbage ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            </tr>
+
+                            <tr>
+                            <td id="uid9">"uid9"</td>
+                            <td class='border_right'><a href='#modifyDialog' id='btnModify9' data-rel='popup' data-position-to='window' class='ui-btn ui-icon-pen ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            <td id="description9">"description9"</td>
+                            <td><a id='btnTool9' href='#' class='ui-btn ui-icon-tool ui-btn-icon-notext ui-corner-all'>No text</a></td>
+
+                            <td><a id='btnGarbage9' href='#deleteDialog' data-rel='popup' class='ui-btn ui-icon-garbage ui-btn-icon-notext ui-corner-all'>No text</a></td>
+                            </tr>
+
+
+                         </tbody>
+                    </table>
+                   
+         
+                <div id="nav" ></div>
+        
+        </div> 
+        <!--content -->
+
+</div>
+<!-- /page one-->
+
+
+
+
+</body>
+</html>
